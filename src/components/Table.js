@@ -6,6 +6,7 @@ const data = () => {
 
 }
 const Table = ({ sat }) => {
+  const data = sat;
   return (
       <table>
        <thead>
@@ -24,6 +25,7 @@ const Table = ({ sat }) => {
             <td>{data.typeOfSatellite}</td>
             <td>{data.launchDate}</td>
             <td>{data.status}</td>
+            <td>{getStatus(data.operational)}</td>
         </tr>
         </tbody>
       </table>
