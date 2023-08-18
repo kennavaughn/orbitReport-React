@@ -8,7 +8,7 @@
             "name": "Launch Firefox",
             "request": "launch",
             "type": "msedge",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:3000",
             "webRoot": "${codespacesFolder}"
         },
         
@@ -23,14 +23,14 @@
             "name": "Launch Edge",
             "request": "launch",
             "type": "msedge",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:3000",
             "webRoot": "${codespacesFolder}"
         },
         {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:3000",
             "webRoot": "${codespacesFolder}"
         },
         {

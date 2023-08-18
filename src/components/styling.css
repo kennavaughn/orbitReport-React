@@ -5,7 +5,7 @@ p {
 }
 
 button {
-  background-color: #5c94ce;
+  background-color: green;
   border-radius: 15px;
   color: white;
   padding: 15px 32px;
@@ -23,9 +23,9 @@ button {
 }
 
 table {
-  border: 2px solid #354a5f;
+  border: 2px solid gray;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+  border-collapse: separate;
   width: 100%;
 }
 
